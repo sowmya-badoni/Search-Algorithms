@@ -77,7 +77,7 @@ def binary(array,key,low,high):
             return mid
         elif array[mid]<key:
             return binary(array,key,mid+1,high)
-        elif array[mid]>key:
+        elif array[mid]>key: 
              return binary(array,key,low,mid-1)
     return -1
 array=eval(input())
